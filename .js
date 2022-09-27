@@ -1,1 +1,0 @@
-//list of currencies will go here//
