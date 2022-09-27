@@ -1,2 +1,27 @@
+body{
+    background-color: rgb(8, 48, 77);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input{
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
 /* currency converter */
 /* News */
+
+.world-news{
+    width: 80%;
+    margin: 20px;
+}
+
+#news-display{
+    margin-top: 20px;
+    background-color: rgb(13, 76, 122);
+    padding: 20px;
+    border-radius: 10px;
+}
