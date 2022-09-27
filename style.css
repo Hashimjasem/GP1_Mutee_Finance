@@ -5,12 +5,20 @@ body{
     justify-content: center;
 }
 
-input{
+form{
     height: 30px;
+}
+input{
     border-radius: 5px;
     padding-left: 10px;
 }
 
+button{
+    border-radius: 5px;
+    background-color:rgb(13, 76, 122);
+    color: white;
+    padding: 0px 5px;
+}
 /* currency converter */
 /* News */
 
@@ -24,4 +32,9 @@ input{
     background-color: rgb(13, 76, 122);
     padding: 20px;
     border-radius: 10px;
+    color: white;
+}
+
+.news-entry{
+    background-color: white;
 }
