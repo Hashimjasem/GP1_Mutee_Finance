@@ -33,5 +33,25 @@ button{
 }
 
 .news-entry{
-    background-color: white;
+    background-color: rgb(182, 182, 182);
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.news-entry img{
+    flex: 1;
+    width: 30%;
+    height: 100%;
+}
+
+.news-entry h2{
+    font-size: 30px;
+    flex: 3;
+    width: 70%
+}
+
+.news-entry p{
+    flex: 4;
+    width: 100%;
+    font-size: 12px;
 }
