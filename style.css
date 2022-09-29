@@ -5,9 +5,6 @@ body{
     justify-content: center;
 }
 
-form{
-    height: 30px;
-}
 input{
     border-radius: 5px;
     padding-left: 10px;
