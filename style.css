@@ -1,21 +1,50 @@
+body{
+  background-color: #2c4463;
+}
+
+
 /* currency converter */
 /* News */
 
 /* graphs */
+
+/* banner */
+.banner {
+  background-color: #20303f;
+  height: 75px;
+}
+
+#donkey {
+  height: 75px;
+  position: relative;
+  right: 80px;
+  color: ;
+}
+
+#title {
+  font-size: 300%;
+  font-weight: bolder;
+  color: #e0e5e8;
+  position: relative;
+  left: 90px;
+  bottom: 60px;
+}
+/* vertical menu */
 .vertical-menu {
     width: 200px; /* Set a width if you like */
   }
   
   .vertical-menu a {
-    background-color: #eee; /* Grey background color */
+    background-color: #20303f; /* Grey background color */
     color: black; /* Black text color */
     display: block; /* Make the links appear below each other */
-    padding: 20px; /* Add some padding */
+    padding: 10px; /* Add some padding */
     text-decoration: none; /* Remove underline from links */
+    margin: 10px;
   }
   
   .vertical-menu a:hover {
-    background-color: #ccc; /* Dark grey background on mouse-over */
+    background-color: #324b80; /* Dark grey background on mouse-over */
   }
   
   .vertical-menu a.active {
@@ -25,6 +54,69 @@
 
   .vertical-menu {
     width: 350px;
-    height: 400px;
+    height: 700px;
     overflow-y: auto;
   }
+
+/* widgets */
+.pairs{
+  border-radius: 15px;
+  height: 130px;
+}
+
+.currency-pair{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  margin: 4px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.direction{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 50px;
+  width: 30px;
+  text-align: center;
+  margin: 4px;
+  justify-content: center;
+}
+
+.direction #arrow {
+  transform: rotate(270deg);
+  width: 42px;
+  align-items: center;
+  position: relative;
+  top: 9px;
+}
+
+.change {
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 50px;
+  max-width: 110px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-left: 43px;
+  position: relative;
+  bottom: 54px;
+}
+
+.graph {
+  height: 108px;
+  width: 108px;
+  position: relative;
+  left: 170px;
+  bottom: 146px;
+}
+
+.main-graph {
+  position: relative;
+  left: 500px;
+  bottom: 660px;
+  margin: 20px;
+  height: 640px;
+}
