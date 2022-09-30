@@ -1,2 +1,57 @@
+body{
+    background-color: rgb(8, 48, 77);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input{
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    border-radius: 5px;
+    background-color:rgb(13, 76, 122);
+    color: white;
+    padding: 0px 5px;
+}
 /* currency converter */
 /* News */
+
+.world-news{
+    width: 80%;
+    margin: 20px;
+}
+
+#news-display{
+    margin-top: 20px;
+    background-color: rgb(13, 76, 122);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.news-entry{
+    background-color: rgb(182, 182, 182);
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.news-entry img{
+    flex: 1;
+    width: 30%;
+    height: 100%;
+}
+
+.news-entry h2{
+    font-size: 30px;
+    flex: 3;
+    width: 70%
+}
+
+.news-entry p{
+    flex: 4;
+    width: 100%;
+    font-size: 12px;
+}
