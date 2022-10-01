@@ -9,6 +9,7 @@
     <!-- A temporary css to be converted to Tailwind later. -->
     <link rel="stylesheet" href="./style.css">
     <title>Mutee Finance News and curreny converter</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
 </head>
 
 <body>
@@ -18,6 +19,54 @@
     </header>
     <!-- GRAPHS - Hashim -->
    <div class="vertical-menu">
+        <a href="#" class="pairs">
+            <div class="currency-pair">AUD/USD</div>
+            <div class="direction"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="arrow"></div>
+            <div class="USDAUD change"></div> 
+            <div class="graph"><img src="../currency-converter/images/graph_temp.jpg" alt="candle stick graph"></div>
+        </a>
+        <a href="#" class="pairs">
+            <div class="currency-pair">AUD/USD</div>
+            <div class="direction"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="arrow"></div>
+            <div class="change"> 5% </div> 
+            <div class="graph"><img src="../currency-converter/images/graph_temp.jpg" alt="candle stick graph"></div>
+        </a>
+        <a href="#" class="pairs">
+            <div class="currency-pair">AUD/USD</div>
+            <div class="direction"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="arrow"></div>
+            <div class="change"> 5% </div> 
+            <div class="graph"><img src="../currency-converter/images/graph_temp.jpg" alt="candle stick graph"></div>
+        </a>
+        <a href="#" class="pairs">
+            <div class="currency-pair">AUD/USD</div>
+            <div class="direction"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="arrow"></div>
+            <div class="change"> 5% </div> 
+            <div class="graph"><img src="../currency-converter/images/graph_temp.jpg" alt="candle stick graph"></div>
+        </a>
+        <a href="#" class="pairs">
+            <div class="currency-pair">AUD/USD</div>
+            <div class="direction"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="arrow"></div>
+            <div class="change"> 5% </div> 
+            <div class="graph"><img src="../currency-converter/images/graph_temp.jpg" alt="candle stick graph"></div>
+        </a>
+        <a href="#" class="pairs">
+            <div class="currency-pair">AUD/USD</div>
+            <div class="direction"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="arrow"></div>
+            <div class="change"> 5% </div> 
+            <div class="graph"><img src="../currency-converter/images/graph_temp.jpg" alt="candle stick graph"></div>
+        </a>
+        <a href="#" class="pairs">
+            <div class="currency-pair">AUD/USD</div>
+            <div class="direction"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="arrow"></div>
+            <div class="change"> 5% </div> 
+            <div class="graph"><img src="../currency-converter/images/graph_temp.jpg" alt="candle stick graph"></div>
+        </a>
+        <a href="#" class="pairs">
+            <div class="currency-pair">AUD/USD</div>
+            <div class="direction"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="arrow"></div>
+            <div class="change"> 5% </div> 
+            <div class="graph"><img src="../currency-converter/images/graph_temp.jpg" alt="candle stick graph"></div>
+        </a>
         <a href="#" class="pairs">
             <div class="currency-pair">AUD/USD</div>
             <div class="direction"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="arrow"></div>
@@ -56,10 +105,11 @@
         </a>
     </div>
 
-    <div>
-        <p >
-            <img class="main-graph" src="./images/graph_temp.jpg" alt="main graph">
-        </p>
+    <div id="minigraph-container">
+        <canvas id="minigraph" width="0.5" height="0.5"></canvas>
+<script id="canvas-script">
+
+</script>
     </div>
    <section>
     <!-- Currency converter -Tam -->

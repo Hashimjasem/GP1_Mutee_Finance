@@ -1,7 +1,7 @@
-body{
+/*body{
   background-color: #2c4463;
 }
-
+*/
 /* graphs */
 
 /* banner */
@@ -23,6 +23,7 @@ body{
   position: relative;
   left: 90px;
   bottom: 60px;
+  max-width: fit-content;
 }
 /* vertical menu */
 .vertical-menu {
@@ -48,8 +49,8 @@ body{
   }
 
   .vertical-menu {
-    width: 350px;
-    height: 700px;
+    width: 500px;
+    height: 900px;
     overflow-y: auto;
   }
 
@@ -107,18 +108,19 @@ body{
   left: 170px;
   bottom: 146px;
 }
-
-.main-graph {
+/* main graph */
+.minigraph {
   position: relative;
   left: 500px;
-  bottom: 660px;
-  margin: 20px;
-  height: 640px;
-=======
+  bottom: 900px;
+  margin: 0px;
+  width: 1879px;
+  height: 900px;
     background-color: rgb(8, 48, 77);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    z-index: 99;
 }
 
 input{
