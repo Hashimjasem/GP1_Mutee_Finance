@@ -72,43 +72,88 @@ console.log(yDate); // YYYY-MM-DD
 // tickers price to the DOM element it corrosponds to
 function outputResults(quotes) {
     // target each HTML element
-    var USDAUD = document.querySelector(".USDAUD");
-    var USDEUR = document.querySelector(".USDEUR");
-    var USDGBP = document.querySelector(".USDGBP");
-    var USDNZD = document.querySelector(".USDNZD");
-    var USDJEP = document.querySelector(".USDJEP");
-    var USDJPY = document.querySelector(".USDJPY");
-    var USDQAR = document.querySelector(".USDQAR");
-    var USDUAH = document.querySelector(".USDUAH");
-    var USDTOP = document.querySelector(".USDTOP");
-    var USDMRO = document.querySelector(".USDMRO");
-    var USDTMT = document.querySelector(".USDTMT");
-    var USDSAR = document.querySelector(".USDSAR");
-    var USDSYP = document.querySelector(".USDSYP");
-    var USDPAB = document.querySelector(".USDPAB");
-    var USDMZN = document.querySelector(".USDMZN");
-    console.log(quotes[currentDate]["USDAUD"])
+    var USDAUDdown = document.querySelector(".USDAUDdown");
+    var USDAUDup = document.querySelector(".USDAUDup");
+    var USDEURdown = document.querySelector(".USDEURdown");
+    var USDEURup = document.querySelector(".USDEURup");
+    var USDEURdown = document.querySelector(".USDEURdown");
+    var USDGBPup = document.querySelector(".USDGBPup");
+    var USDGBPdown = document.querySelector(".USDGBPdown");
+    var USDNZDup = document.querySelector(".USDNZDup");
+    var USDNZDdown = document.querySelector(".USDNZDdown");
+    var USDJEPup = document.querySelector(".USDJEPup");
+    var USDJEPdown = document.querySelector(".USDJEPdown");
+    var USDJPYup = document.querySelector(".USDJPYup");
+    var USDJPYdown = document.querySelector(".USDJPYdown");
+    var USDQARup = document.querySelector(".USDQARup");
+    var USDQARdown = document.querySelector(".USDQARdown");
+    var USDUAHup = document.querySelector(".USDUAHup");
+    var USDUAHdown = document.querySelector(".USDUAHdown");
+    var USDTOPup = document.querySelector(".USDTOPup");
+    var USDTOPdown = document.querySelector(".USDTOPdown");
+    var USDMROup = document.querySelector(".USDMROup");
+    var USDMROdown = document.querySelector(".USDMROdown");
+    var USDTMTup = document.querySelector(".USDTMTup");
+    var USDTMTdown = document.querySelector(".USDTMTdown");
+    var USDSARup = document.querySelector(".USDSARup");
+    var USDSARdown = document.querySelector(".USDSARdown");
+    var USDSYPup = document.querySelector(".USDSYPup");
+    var USDSYPdown = document.querySelector(".USDSYPdown");
+    var USDPABup = document.querySelector(".USDPABup");
+    var USDPABdown = document.querySelector(".USDPABdown");
+    var USDMZNup = document.querySelector(".USDMZNup");
+    var USDMZNdown = document.querySelector(".USDMZNdown");
+    // console.log(quotes[currentDate]["USDAUD"])
     // console.log(quotes[ydate]["USDAUD"])
     // for each div (ticker)
-    USDAUD.textContent = quotes[currentDate].USDAUD;
-    USDEUR.textContent = quotes[currentDate].USDEUR;
-    USDGBP.textContent = quotes[currentDate].USDGBP;
-    USDNZD.textContent = quotes[currentDate].USDNZD;
-    USDJEP.textContent = quotes[currentDate].USDJEP;
-    USDJPY.textContent = quotes[currentDate].USDJPY;
-    USDQAR.textContent = quotes[currentDate].USDQAR;
-    USDUAH.textContent = quotes[currentDate].USDUAH;
-    USDTOP.textContent = quotes[currentDate].USDTOP;
-    USDMRO.textContent = quotes[currentDate].USDMRO;
-    USDTMT.textContent = quotes[currentDate].USDTMT;
-    USDSAR.textContent = quotes[currentDate].USDSAR;
-    USDSYP.textContent = quotes[currentDate].USDSYP;
-    USDPAB.textContent = quotes[currentDate].USDPAB;
-    USDMZN.textContent = quotes[currentDate].USDMZN;
+    USDAUDup.textContent = quotes[currentDate].USDAUD;
+    USDAUDdown.textContent = quotes[currentDate].USDAUD;
+    USDEURup.textContent = quotes[currentDate].USDEUR;
+    USDEURdown.textContent = quotes[currentDate].USDEUR;
+    USDGBPup.textContent = quotes[currentDate].USDGBP;
+    USDGBPdown.textContent = quotes[currentDate].USDGBP;
+    USDNZDup.textContent = quotes[currentDate].USDNZD;
+    USDNZDdown.textContent = quotes[currentDate].USDNZD;
+    USDJEPup.textContent = quotes[currentDate].USDJEP;
+    USDJEPdown.textContent = quotes[currentDate].USDJEP;
+    USDJPYup.textContent = quotes[currentDate].USDJPY;
+    USDJPYdown.textContent = quotes[currentDate].USDJPY;
+    USDQARup.textContent = quotes[currentDate].USDQAR;
+    USDQARdown.textContent = quotes[currentDate].USDQAR;
+    USDUAHup.textContent = quotes[currentDate].USDUAH;
+    USDUAHdown.textContent = quotes[currentDate].USDUAH;
+    USDTOPup.textContent = quotes[currentDate].USDTOP;
+    USDTOPdown.textContent = quotes[currentDate].USDTOP;
+    USDMROup.textContent = quotes[currentDate].USDMRO;
+    USDMROdown.textContent = quotes[currentDate].USDMRO;
+    USDTMTup.textContent = quotes[currentDate].USDTMT;
+    USDTMTdown.textContent = quotes[currentDate].USDTMT;
+    USDSARup.textContent = quotes[currentDate].USDSAR;
+    USDSARdown.textContent = quotes[currentDate].USDSAR;
+    USDSYPup.textContent = quotes[currentDate].USDSYP;
+    USDSYPdown.textContent = quotes[currentDate].USDSYP;
+    USDPABup.textContent = quotes[currentDate].USDPAB;
+    USDPABdown.textContent = quotes[currentDate].USDPAB;
+    USDMZNup.textContent = quotes[currentDate].USDMZN;
+    USDMZNdown.textContent = quotes[currentDate].USDMZN;
 
 
 }
+//------------------------------------------------------------Get COMPARISON DATA FOR WIDGETS--------------------------------------------------------------------------------------//
+// var myHeaders = new Headers();
+// myHeaders.append("apikey", "nD1xSvmnPutHPAqFTdSUjB9s05FQ5Hao");
 
+// var requestOptions = {
+//   method: 'GET',
+//   redirect: 'follow',
+//   headers: myHeaders
+// };
+
+// fetch("https://api.apilayer.com/currency_data/change?start_date=2022-09-20&end_date=2022-10-01&currencies=aud, gbp, eur, jpy, nzd, jep, qar, uah, top, mro, tmt, sar, syp, pab, mzn", requestOptions)
+//   .then(response => response.text())
+//   .then(result => console.log(result))
+//   .catch(error => console.log('error', error));
+//------------------------------------------------------------TO GET LABLES TO DISPLAY ON X-AXIS (DATES)------------------------------------------------------------------//
 
 /**
  * A function that finds the last 180 days of prices for a given currency pair
@@ -130,7 +175,6 @@ function getHistoricalData(quotes, ticker) {
     // return allows the array to be used as a variable ( eg var history = graphHistorical() )
     return historicalValues;
 }
-//------------------------------------------------------------TO GET LABLES TO DISPLAY ON X-AXIS (DATES)------------------------------------------------------------------//
 // Funciton to get the pervious 180 dates
 function getHistoricalLabels() {
     var historicalLabels = []
@@ -149,9 +193,9 @@ function getHistoricalLabels() {
 }
 
 
-
+//-------------------------------------------------------------------FETCH API--------------------------------------------------------------------------//
 var myHeaders = new Headers();
-myHeaders.append("apikey", "s3gi2o3RFZ8M4MSW4XTisS1y7YARlZyd");
+myHeaders.append("apikey", "nD1xSvmnPutHPAqFTdSUjB9s05FQ5Hao");
 
 var requestOptions = {
     method: 'GET',
@@ -176,7 +220,7 @@ fetch(`https://api.apilayer.com/currency_data/timeframe?start_date=2022-01-01&en
     .catch(error => console.log('error', error));
 
 //separate a single currencypair
-
+//----------------------------------------------------------DISPLAYS DATA & LABLES ONTO GRAPH-------------------------------------------------------------------------------------//
 // graph data
 //var minigraphContainer = document.querySelector("#minigraph-container");
 function AddData(quotes, ticker, chart = minigraph) {
