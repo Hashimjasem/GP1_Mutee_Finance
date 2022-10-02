@@ -151,7 +151,7 @@ function getHistoricalLabels() {
 
 
 var myHeaders = new Headers();
-myHeaders.append("apikey", "2BIPlossWvvUY7kdWJR4ldAIggwA1nDL");
+myHeaders.append("apikey", "s3gi2o3RFZ8M4MSW4XTisS1y7YARlZyd");
 
 var requestOptions = {
     method: 'GET',
@@ -159,7 +159,7 @@ var requestOptions = {
     headers: myHeaders
 };
 
-fetch(`https://api.apilayer.com/currency_data/timeframe?start_date=2022-01-01&end_date=${currentDate}`, requestOptions)
+fetch(`https://api.apilayer.com/currency_data/timeframe?start_date=2022-01-01&end_date=${currentDate}&currencies=aud, gbp, eur, jpy, nzd, jep, qar, uah, top, mro, tmt, sar, syp, pab, mzn`, requestOptions)
     .then(response => response.text())
     .then(result => {
         console.log(result)
