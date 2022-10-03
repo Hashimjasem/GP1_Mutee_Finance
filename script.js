@@ -195,7 +195,7 @@ function getHistoricalLabels() {
 
 //-------------------------------------------------------------------FETCH API--------------------------------------------------------------------------//
 var myHeaders = new Headers();
-myHeaders.append("apikey", "nD1xSvmnPutHPAqFTdSUjB9s05FQ5Hao");
+myHeaders.append("apikey", "cgH0TobNRldnmW2m3cl3MYmHd8nGtPHX");
 
 var requestOptions = {
     method: 'GET',
