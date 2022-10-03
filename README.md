@@ -1,6 +1,8 @@
 # currency-converter
 currency converter with Forex Graphs and a news feed with relivant world news.
 
+![screenshot of live site](./images/Mute.Finance.PNG)
+
 User story
 - As a forex trader I want to view currency exchange graphs and relevant world news. I would also like to have access to a currency converter in this web page.
 
