@@ -266,6 +266,7 @@ function AddData(quotes, ticker, chart = minigraph) {
 var searchButton = document.getElementById("search-button");
 var searchInput = document.getElementById("search-input");
 var newsContainer = document.getElementById("news-display")
+var newsPlaceholder = document.getElementById("no-news")
 
 var recentQuery = "";
 
@@ -296,26 +297,47 @@ function fetchNews(query) {
         })
 }
 
-function generateNews(data) {
+function generateNews(data){
+    newsPlaceholder.style.display = "none";
+    for(i=0; i<8;i++){
+    function generateNews(data) {
     for (i = 0; i < 8; i++) {
         var newsArticle = document.createElement("div");
         var newsTitle = document.createElement("h2");
         var newsImage = document.createElement("img");
         var newsText = document.createElement("p")
         var newsURL = document.createElement("a")
+        var newsDetails = document.createElement("div");
 
         newsArticle.className = "news-entry"
 
         newsTitle.textContent = data.news[i].title;
+        newsImage.src=data.news[i].image;
+        article = truncateContent(data.news[i].text);
+        newsText.textContent = article;
+        newsURL.href=data.news[i].url;
+        newsURL.textContent = "Read More"
         newsImage.src = data.news[i].image;
         newsText.textContent = data.news[i].text;
         newsURL.href = data.news[i].url;
 
         newsArticle.appendChild(newsImage);
-        newsArticle.appendChild(newsTitle);
-        newsArticle.appendChild(newsText);
-        newsArticle.appendChild(newsURL);
+    
+        newsDetails.appendChild(newsTitle);
+        newsDetails.appendChild(newsText);
+        newsDetails.appendChild(newsURL);
+        newsArticle.appendChild(newsDetails);
 
         newsContainer.appendChild(newsArticle);
     }
+}
+
+function truncateContent(text){
+    textArray = text.split(" ");
+    while (textArray.length > 100){
+        textArray.pop();
+    }
+    newText = textArray.join(" ");
+    newText = newText + "...";
+    return newText;
 }
