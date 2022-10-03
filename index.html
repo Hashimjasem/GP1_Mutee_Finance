@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <!-- A temporary css to be converted to Tailwind later. -->
     <link rel="stylesheet" href="./style.css">
     <title>Mutee Finance News and curreny converter</title>
@@ -358,9 +360,58 @@
 </script>
 
     </div>
-   <section>
+   
     <!-- Currency converter -Tam -->
-   </section>
+    <section class="wrapper">
+        <header>Currency Converter</header>
+        <form action="#">
+            <div class = "amount">
+                <p>Enter Amount</p>
+                <input type="text" value="">
+            </div>
+            <div class = "drop-list">
+                <div class = "from">
+                    <p>From</p>
+                    <div class='select-box'> 
+                        <img src="https://www.countryflags.com/wp-content/uploads/united-states-of-america-flag-png-large.png" alt="select flag">                     
+                        <select name="Original" id="Country">
+                            <option value="USD">USD</option>
+                            <option value="AUD">AUD</option>
+                            <option value="CAD">CAD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="JPY">JPY</option>
+                            <option value="CNY">CNY</option>
+                            <option value="RUB">RUB</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="icon"><i class='fas fa-exchange-alt'></i></div>
+                <div class = "to">
+                    <p>to</p>
+                    <div class='select-box'> 
+                        <img src="https://www.countryflags.com/wp-content/uploads/flag-jpg-xl-9-2048x1024.jpg" alt="select flag">                     
+                        <select name="Original" id="Country">
+                            <option value="AUD">AUD</option>
+                            <option value="USD">USD</option>
+                            <option value="CAD">CAD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="JPY">JPY</option>
+                            <option value="CNY">CNY</option>
+                            <option value="RUB">RUB</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="exchange-rate">1 USD = 1.55 AUD</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    <script src='js/country_list.js'></script>    
+    <script src='js/script.js'></script>    
+    </section>
+
+
     <!-- NEWS - Sidney -->
    <section class="world-news">
     <form>
