@@ -340,4 +340,4 @@ function truncateContent(text){
     newText = textArray.join(" ");
     newText = newText + "...";
     return newText;
-}
+}}}
