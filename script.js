@@ -299,8 +299,6 @@ function fetchNews(query) {
 
 function generateNews(data){
     newsPlaceholder.style.display = "none";
-    for(i=0; i<8;i++){
-    function generateNews(data) {
     for (i = 0; i < 8; i++) {
         var newsArticle = document.createElement("div");
         var newsTitle = document.createElement("h2");
@@ -317,9 +315,6 @@ function generateNews(data){
         newsText.textContent = article;
         newsURL.href=data.news[i].url;
         newsURL.textContent = "Read More"
-        newsImage.src = data.news[i].image;
-        newsText.textContent = data.news[i].text;
-        newsURL.href = data.news[i].url;
 
         newsArticle.appendChild(newsImage);
     
@@ -340,4 +335,4 @@ function truncateContent(text){
     newText = textArray.join(" ");
     newText = newText + "...";
     return newText;
-}}}
+}
