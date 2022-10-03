@@ -23,344 +23,373 @@
    <div class="vertical-menu">
         <a href="#" class="pairs" id="audup">
             <div class="currency-pairup">USD/AUD</div>
-            <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
             </div>
             <div class="USDAUDup change"></div>
             <div id="AUD-container">
                 <canvas class="graph" id="graphUSDAUD" width="0.01" height="0.01"></canvas>
-                <script id="canvas-script">
-
-                </script>
+                <script id="canvas-script"></script>
             </div>
+        </a>
+
         <a href="#" class="pairs" id="auddown">
             <div class="currency-pairdown">USD/AUD</div>
-            <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
+            <div class="directiondown" >
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
             </div>
             <div class="USDAUDdown change"></div>
             <div id="AUD-container">
                 <canvas class="graph" id="graphUSDAUD" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>     
+        </a>
+
+        <a href="#" class="pairs" id="eurup">
+            <div class="currency-pairup">USD/EUR</div>
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
+            </div>
+            <div class="USDEURup change"></div>
+            <div id="EUR-container">
+                <canvas class="graph" id="graphUSDEUR" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+        </a>
+
+        <a href="#" class="pairs" id="eurdown">
+            <div class="currency-pairdown">USD/EUR</div>
+            <div class="directiondown" >
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
+            </div>
+            <div class="USDEURdown change"></div>
+            <div id="EUR-container">
+                <canvas class="graph" id="graphUSDEUR" width="0.01" height="0.01"></canvas>
                 <script id="canvas-script">
 
                 </script>
             </div>     
-            <a href="#" class="pairs" id="eurup">
-                <div class="currency-pairup">USD/EUR</div>
-                <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
-                </div>
-                <div class="USDEURup change"></div>
-                <div id="EUR-container">
-                    <canvas class="graph" id="graphUSDEUR" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>
-            <a href="#" class="pairs" id="eurdown">
-                <div class="currency-pairdown">USD/EUR</div>
-                <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
-                </div>
-                <div class="USDEURdown change"></div>
-                <div id="EUR-container">
-                    <canvas class="graph" id="graphUSDEUR" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>     
-            <a href="#" class="pairs" id="gbpup">
-                <div class="currency-pairup">USD/GBP</div>
-                <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
-                </div>
-                <div class="USDGBPup change"></div>
-                <div id="GBP-container">
-                    <canvas class="graph" id="graphUSDGBP" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>
-            <a href="#" class="pairs" id="gbpdown">
-                <div class="currency-pairdown">USD/GBP</div>
-                <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
-                </div>
-                <div class="USDGBPdown change"></div>
-                <div id="GBP-container">
-                    <canvas class="graph" id="graphUSGBP" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>     
-            <a href="#" class="pairs" id="nzdup">
-                <div class="currency-pairup">USD/NZD</div>
-                <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
-                </div>
-                <div class="USDNZDup change"></div>
-                <div id="NZD-container">
-                    <canvas class="graph" id="graphUSDNZD" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>
-            <a href="#" class="pairs" id="nzddown">
-                <div class="currency-pairdown">USD/NZD</div>
-                <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
-                </div>
-                <div class="USDNZDdown change"></div>
-                <div id="NZD-container">
-                    <canvas class="graph" id="graphUSDNZD" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>     
-            <a href="#" class="pairs" id="jepup">
-                <div class="currency-pairup">USD/JEP</div>
-                <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
-                </div>
-                <div class="USDJEPup change"></div>
-                <div id="JEP-container">
-                    <canvas class="graph" id="graphUSDJEP" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>
-            <a href="#" class="pairs" id="jepdown">
-                <div class="currency-pairdown">USD/JEP</div>
-                <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
-                </div>
-                <div class="USDJEPdown change"></div>
-                <div id="JEP-container">
-                    <canvas class="graph" id="graphUSDJEP" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>     
-            <a href="#" class="pairs" id="jpyup">
-                <div class="currency-pairup">USD/JPY</div>
-                <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
-                </div>
-                <div class="USDJPYup change"></div>
-                <div id="JPY-container">
-                    <canvas class="graph" id="graphUSDJPY" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>
-            <a href="#" class="pairs" id="jpydown">
-                <div class="currency-pairdown">USD/JPY</div>
-                <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
-                </div>
-                <div class="USDJPYdown change"></div>
-                <div id="JPY-container">
-                    <canvas class="graph" id="graphUSDJPY" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>     
-            <a href="#" class="pairs" id="qarup">
-                <div class="currency-pairup">USD/QAR</div>
-                <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
-                </div>
-                <div class="USDQARup change"></div>
-                <div id="QAR-container">
-                    <canvas class="graph" id="graphUSDQAR" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>
-            <a href="#" class="pairs" id="qardown">
-                <div class="currency-pairdown">USD/QAR</div>
-                <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
-                </div>
-                <div class="USDQARdown change"></div>
-                <div id="QAR-container">
-                    <canvas class="graph" id="graphUSDQAR" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>     
-            <a href="#" class="pairs" id="uahup">
-                <div class="currency-pairup">USD/UAH</div>
-                <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
-                </div>
-                <div class="USDUAHup change"></div>
-                <div id="UAH-container">
-                    <canvas class="graph" id="graphUSDUAH" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>
-            <a href="#" class="pairs" id="uahdown">
-                <div class="currency-pairdown">USD/UAH</div>
-                <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
-                </div>
-                <div class="USDUAHdown change"></div>
-                <div id="UAH-container">
-                    <canvas class="graph" id="graphUSDUAH" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>
-            <a href="#" class="pairs" id="topdown">
-                <div class="currency-pairdown">USD/TOP</div>
-                <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
-                </div>
-                <div class="USDTOPdown change"></div>
-                <div id="TOP-container">
-                    <canvas class="graph" id="graphUSDTOP" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>     
-            <a href="#" class="pairs" id="topup">
-                <div class="currency-pairup">USD/TOP</div>
-                <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
-                </div>
-                <div class="USDTOPup change"></div>
-                <div id="TOP-container">
-                    <canvas class="graph" id="graphUSDTOP" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>
-            <a href="#" class="pairs" id="mrodown">
-                <div class="currency-pairdown">USD/MRO</div>
-                <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
-                </div>
-                <div class="USDMROdown change"></div>
-                <div id="MRO-container">
-                    <canvas class="graph" id="graphUSDMRO" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>     
-            <a href="#" class="pairs" id="mroup">
-                <div class="currency-pairup">USD/MRO</div>
-                <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
-                </div>
-                <div class="USDMROup change"></div>
-                <div id="MRO-container">
-                    <canvas class="graph" id="graphUSDMRO" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>
-            <a href="#" class="pairs" id="TMTdown">
-                <div class="currency-pairdown">USD/TMT</div>
-                <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
-                </div>
-                <div class="USDTMTdown change"></div>
-                <div id="TMT-container">
-                    <canvas class="graph" id="graphUSDTMT" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>     
-            <a href="#" class="pairs" id="tmtup">
-                <div class="currency-pairup">USD/TMT</div>
-                <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
-                </div>
-                <div class="USDTMTup change"></div>
-                <div id="TMT-container">
-                    <canvas class="graph" id="graphUSDTMT" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>
-            <a href="#" class="pairs" id="sardown">
-                <div class="currency-pairdown">USD/SAR</div>
-                <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
-                </div>
-                <div class="USDSARdown change"></div>
-                <div id="SAR-container">
-                    <canvas class="graph" id="graphUSDSAR" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>     
-            <a href="#" class="pairs" id="sarup">
-                <div class="currency-pairup">USD/SAR</div>
-                <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
-                </div>
-                <div class="USDSARup change"></div>
-                <div id="SAR-container">
-                    <canvas class="graph" id="graphUSDSAR" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>
-            <a href="#" class="pairs" id="sypdown">
-                <div class="currency-pairdown">USD/SYP</div>
-                <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
-                </div>
-                <div class="USDSYPdown change"></div>
-                <div id="SYP-container">
-                    <canvas class="graph" id="graphUSDSYP" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>     
-            <a href="#" class="pairs" id="sypup">
-                <div class="currency-pairup">USD/SYP</div>
-                <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
-                </div>
-                <div class="USDSYPup change"></div>
-                <div id="SYP-container">
-                    <canvas class="graph" id="graphUSDSYP" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>
-            <a href="#" class="pairs" id="pabdown">
-                <div class="currency-pairdown">USD/PAB</div>
-                <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
-                </div>
-                <div class="USDPABdown change"></div>
-                <div id="PAB-container">
-                    <canvas class="graph" id="graphUSDPAB" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>    
-                <a href="#" class="pairs" id="pabup">
-                    <div class="currency-pairup">USD/PAB</div>
-                    <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
-                    </div>
-                    <div class="USDPABup change"></div>
-                    <div id="PAB-container">
-                        <canvas class="graph" id="graphUSDPAB" width="0.01" height="0.01"></canvas>
-                        <script id="canvas-script">
-        
-                        </script>
-                    </div> 
-            <a href="#" class="pairs" id="mzndown">
-                <div class="currency-pairdown">USD/MZN</div>
-                <div class="directiondown" ><img src="../currency-converter/images/arrow.png" alt="arrow pointing down" id="down">
-                </div>
-                <div class="USDMZNdown change"></div>
-                <div id="MZN-container">
-                    <canvas class="graph" id="graphUSDMZN" width="0.01" height="0.01"></canvas>
-                    <script id="canvas-script">
-    
-                    </script>
-                </div>    
-                <a href="#" class="pairs" id="mznup">
-                    <div class="currency-pairup">USD/MZN</div>
-                    <div class="directionup"><img src="../currency-converter/images/arrow.png" alt="arrow pointing up" id="up">
-                    </div>
-                    <div class="USDMZNup change"></div>
-                    <div id="MZN-container">
-                        <canvas class="graph" id="graphUSDMZN" width="0.01" height="0.01"></canvas>
-                        <script id="canvas-script">
-        
-                        </script>
-                    </div> 
-        </div>
+        </a>
 
+        <a href="#" class="pairs" id="gbpup">
+            <div class="currency-pairup">USD/GBP</div>
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
+            </div>
+            <div class="USDGBPup change"></div>
+            <div id="GBP-container">
+                <canvas class="graph" id="graphUSDGBP" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+        </a>
+
+        <a href="#" class="pairs" id="gbpdown">
+            <div class="currency-pairdown">USD/GBP</div>
+            <div class="directiondown" >
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
+            </div>
+            <div class="USDGBPdown change"></div>
+            <div id="GBP-container">
+                <canvas class="graph" id="graphUSGBP" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>  
+        </a>
+
+        <a href="#" class="pairs" id="nzdup">
+            <div class="currency-pairup">USD/NZD</div>
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
+            </div>
+            <div class="USDNZDup change"></div>
+            <div id="NZD-container">
+                <canvas class="graph" id="graphUSDNZD" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+         </a>
+
+        <a href="#" class="pairs" id="nzddown">
+            <div class="currency-pairdown">USD/NZD</div>
+            <div class="directiondown" >
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
+            </div>
+            <div class="USDNZDdown change"></div>
+            <div id="NZD-container">
+                <canvas class="graph" id="graphUSDNZD" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+        </a>   
+
+        <a href="#" class="pairs" id="jepup">
+            <div class="currency-pairup">USD/JEP</div>
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
+            </div>
+            <div class="USDJEPup change"></div>
+            <div id="JEP-container">
+                <canvas class="graph" id="graphUSDJEP" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+        </a>
+
+        <a href="#" class="pairs" id="jepdown">
+            <div class="currency-pairdown">USD/JEP</div>
+            <div class="directiondown" >
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
+            </div>
+            <div class="USDJEPdown change"></div>
+            <div id="JEP-container">
+                <canvas class="graph" id="graphUSDJEP" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>    
+        </a>
+
+        <a href="#" class="pairs" id="jpyup">
+            <div class="currency-pairup">USD/JPY</div>
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
+            </div>
+            <div class="USDJPYup change"></div>
+            <div id="JPY-container">
+                <canvas class="graph" id="graphUSDJPY" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+        </a>
+
+        <a href="#" class="pairs" id="jpydown">
+            <div class="currency-pairdown">USD/JPY</div>
+            <div class="directiondown" >
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
+            </div>
+            <div class="USDJPYdown change"></div>
+            <div id="JPY-container">
+                <canvas class="graph" id="graphUSDJPY" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>    
+        </a>
+
+        <a href="#" class="pairs" id="qarup">
+            <div class="currency-pairup">USD/QAR</div>
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
+            </div>
+            <div class="USDQARup change"></div>
+            <div id="QAR-container">
+                <canvas class="graph" id="graphUSDQAR" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+        </a>
+
+        <a href="#" class="pairs" id="qardown">
+            <div class="currency-pairdown">USD/QAR</div>
+            <div class="directiondown" >
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
+            </div>
+            <div class="USDQARdown change"></div>
+            <div id="QAR-container">
+                <canvas class="graph" id="graphUSDQAR" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>   
+        </a>
+
+        <a href="#" class="pairs" id="uahup">
+            <div class="currency-pairup">USD/UAH</div>
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
+            </div>
+            <div class="USDUAHup change"></div>
+            <div id="UAH-container">
+                <canvas class="graph" id="graphUSDUAH" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+        </a>
+
+        <a href="#" class="pairs" id="uahdown">
+            <div class="currency-pairdown">USD/UAH</div>
+            <div class="directiondown" >
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
+            </div>
+            <div class="USDUAHdown change"></div>
+            <div id="UAH-container">
+                <canvas class="graph" id="graphUSDUAH" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+        </a>
+
+        <a href="#" class="pairs" id="topdown">
+            <div class="currency-pairdown">USD/TOP</div>
+            <div class="directiondown" >
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
+            </div>
+            <div class="USDTOPdown change"></div>
+            <div id="TOP-container">
+                <canvas class="graph" id="graphUSDTOP" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>    
+        </a>
+
+        <a href="#" class="pairs" id="topup">
+            <div class="currency-pairup">USD/TOP</div>
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
+            </div>
+            <div class="USDTOPup change"></div>
+            <div id="TOP-container">
+                <canvas class="graph" id="graphUSDTOP" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+        </a>
+
+        <a href="#" class="pairs" id="mrodown">
+            <div class="currency-pairdown">USD/MRO</div>
+            <div class="directiondown" >
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
+            </div>
+            <div class="USDMROdown change"></div>
+            <div id="MRO-container">
+                <canvas class="graph" id="graphUSDMRO" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>  
+        </a>
+
+        <a href="#" class="pairs" id="mroup">
+            <div class="currency-pairup">USD/MRO</div>
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
+            </div>
+            <div class="USDMROup change"></div>
+            <div id="MRO-container">
+                <canvas class="graph" id="graphUSDMRO" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+        </a>
+
+        <a href="#" class="pairs" id="TMTdown">
+            <div class="currency-pairdown">USD/TMT</div>
+            <div class="directiondown" >
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
+            </div>
+            <div class="USDTMTdown change"></div>
+            <div id="TMT-container">
+                <canvas class="graph" id="graphUSDTMT" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>     
+        </a>
+
+        <a href="#" class="pairs" id="tmtup">
+            <div class="currency-pairup">USD/TMT</div>
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
+            </div>
+            <div class="USDTMTup change"></div>
+            <div id="TMT-container">
+                <canvas class="graph" id="graphUSDTMT" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+        </a>
+        
+        <a href="#" class="pairs" id="sardown">
+            <div class="currency-pairdown">USD/SAR</div>
+            <div class="directiondown" >
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
+            </div>
+            <div class="USDSARdown change"></div>
+            <div id="SAR-container">
+                <canvas class="graph" id="graphUSDSAR" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>   
+        </a>
+
+        <a href="#" class="pairs" id="sarup">
+            <div class="currency-pairup">USD/SAR</div>
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
+            </div>
+            <div class="USDSARup change"></div>
+            <div id="SAR-container">
+                <canvas class="graph" id="graphUSDSAR" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+        </a>
+
+        <a href="#" class="pairs" id="sypdown">
+            <div class="currency-pairdown">USD/SYP</div>
+            <div class="directiondown" >
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
+            </div>
+            <div class="USDSYPdown change"></div>
+            <div id="SYP-container">
+                <canvas class="graph" id="graphUSDSYP" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>   
+        </a>
+
+        <a href="#" class="pairs" id="sypup">
+            <div class="currency-pairup">USD/SYP</div>
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
+            </div>
+            <div class="USDSYPup change"></div>
+            <div id="SYP-container">
+                <canvas class="graph" id="graphUSDSYP" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+        </a>
+
+        <a href="#" class="pairs" id="pabdown">
+            <div class="currency-pairdown">USD/PAB</div>
+            <div class="directiondown">
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
+            </div>
+            <div class="USDPABdown change"></div>
+            <div id="PAB-container">
+                <canvas class="graph" id="graphUSDPAB" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>   
+        </a>
+
+        <a href="#" class="pairs" id="pabup">
+            <div class="currency-pairup">USD/PAB</div>
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
+            </div>
+            <div class="USDPABup change"></div>
+            <div id="PAB-container">
+                <canvas class="graph" id="graphUSDPAB" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div> 
+        </a>
+
+        <a href="#" class="pairs" id="mzndown">
+            <div class="currency-pairdown">USD/MZN</div>
+            <div class="directiondown" >
+                <img src="./images/arrow.png" alt="arrow pointing down" id="down">
+            </div>
+            <div class="USDMZNdown change"></div>
+            <div id="MZN-container">
+                <canvas class="graph" id="graphUSDMZN" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>  
+        </a>
+
+        <a href="#" class="pairs" id="mznup">
+            <div class="currency-pairup">USD/MZN</div>
+            <div class="directionup">
+                <img src="./images/arrow.png" alt="arrow pointing up" id="up">
+            </div>
+            <div class="USDMZNup change"></div>
+            <div id="MZN-container">
+                <canvas class="graph" id="graphUSDMZN" width="0.01" height="0.01"></canvas>
+                <script id="canvas-script"></script>
+            </div>
+        </a>
+    </div>
+        
     <div id="minigraph-container">
         <canvas id="minigraph" width="1" height="0,5"></canvas>
-<script id="canvas-script">
-
-</script>
-
+        <script id="canvas-script"></script>   
     </div>
-   
+        
+   <section>
     <!-- Currency converter -Tam -->
     <section class="wrapper">
         <header>Currency Converter</header>
