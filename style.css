@@ -45,12 +45,6 @@ button{
     height: 100%;
 }
 
-.news-entry h2{
-    color: #EEEEEE;
-    font-size: 20px;
-    flex: 3;
-    width: 70%
-}
 
 .news-entry div{
     flex: 4;
@@ -58,3 +52,18 @@ button{
     font-size: 12px;
     margin-left: 20px;
 }
+
+h2{
+    color: #EEEEEE;
+    font-size: 24px;
+    flex: 3;
+    width: 70%
+}
+
+a{
+    color: #d7ebff;
+    font-size: 14px;
+}
+
+
+
