@@ -1,6 +1,6 @@
 //-------------------------------------------------------TO DISPLAY A GRAPH INTO THE CANVAS-----------------------------------------------------------------------------------------//
-const AUDcht = document.getElementById('minigraph').getContext('2d');
-const minigraph = new Chart(AUDcht, {
+const cxt = document.getElementById('minigraph').getContext('2d');
+const minigraph = new Chart(cxt, {
     type: 'line',
     data: {
         labels: [],
