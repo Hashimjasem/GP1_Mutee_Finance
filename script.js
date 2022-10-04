@@ -1,6 +1,6 @@
 //-------------------------------------------------------TO DISPLAY A GRAPH INTO THE CANVAS-----------------------------------------------------------------------------------------//
-const ctx = document.getElementById('minigraph').getContext('2d');
-const minigraph = new Chart(ctx, {
+const cxt = document.getElementById('minigraph').getContext('2d');
+const minigraph = new Chart(cxt, {
     type: 'line',
     data: {
         labels: [],
@@ -262,6 +262,8 @@ function AddData(quotes, ticker, chart = minigraph) {
 
 
 // currency converter //
+
+
 // News //
 var searchButton = document.getElementById("search-button");
 var searchInput = document.getElementById("search-input");
