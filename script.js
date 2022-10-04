@@ -263,6 +263,7 @@ function AddData(quotes, ticker, chart = minigraph) {
 
 // currency converter //
 
+
 // News //
 var searchButton = document.getElementById("search-button");
 var searchInput = document.getElementById("search-input");
