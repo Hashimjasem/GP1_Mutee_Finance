@@ -233,33 +233,12 @@ function AddData(quotes, ticker, chart = minigraph) {
     console.log(chart.data);
 }
 
-
-
-
-
-
-
-
-
 //widgets //
 //fetch data & set endpoints as currenct day and previous day//
 //separate a single currencypair
 //compare todays value vs yesterdays value
 //display todays value
 // have the result effect css to display direction(arrow & widget colour) & % change
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // currency converter //
 
